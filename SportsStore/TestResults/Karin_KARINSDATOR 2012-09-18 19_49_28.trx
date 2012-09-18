@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4cbec9b0-87c4-433f-a60e-9582f584ccbf" name="Karin@KARINSDATOR 2012-09-18 19:49:28" runUser="Karinsdator\Karin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="38f60171-d25e-4ba7-acce-e4be023cbd29">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karin_KARINSDATOR 2012-09-18 19_49_28">
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-18T19:49:28.9364995+02:00" queuing="2012-09-18T19:49:29.0415055+02:00" start="2012-09-18T19:49:29.1105095+02:00" finish="2012-09-18T19:49:30.7786049+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Login_With_Valid_Credentials" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="87224df0-8c69-5ead-c901-6ece361f6093">
+      <Execution id="b4bcec5d-4b0c-4c7d-927a-bcb99b15aefb" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AccountControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Login_With_Valid_Credentials" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87224df0-8c69-5ead-c901-6ece361f6093" executionId="b4bcec5d-4b0c-4c7d-927a-bcb99b15aefb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b4bcec5d-4b0c-4c7d-927a-bcb99b15aefb" testId="87224df0-8c69-5ead-c901-6ece361f6093" testName="Can_Login_With_Valid_Credentials" computerName="KARINSDATOR" duration="00:00:00.6248757" startTime="2012-09-18T19:49:29.2235159+02:00" endTime="2012-09-18T19:49:30.1795706+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4bcec5d-4b0c-4c7d-927a-bcb99b15aefb">
+    </UnitTestResult>
+  </Results>
+</TestRun>

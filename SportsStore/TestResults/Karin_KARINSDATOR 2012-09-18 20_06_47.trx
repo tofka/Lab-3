@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d3f2f92a-e354-485c-81ab-f4b6088116ab" name="Karin@KARINSDATOR 2012-09-18 20:06:47" runUser="Karinsdator\Karin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="38f60171-d25e-4ba7-acce-e4be023cbd29">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karin_KARINSDATOR 2012-09-18 20_06_47">
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-18T20:06:47.5879070+02:00" queuing="2012-09-18T20:06:47.6979133+02:00" start="2012-09-18T20:06:47.7489162+02:00" finish="2012-09-18T20:06:51.0891072+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="30" executed="30" passed="30" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Generate_Category_Specific_Product_Count" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="31b06b3d-b6f5-c2aa-179c-a283632fc745">
+      <Execution id="a5e83445-205c-4420-8a72-9a9551750a5d" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Generate_Category_Specific_Product_Count" />
+    </UnitTest>
+    <UnitTest name="Cannot_Save_Invalid_Changes" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="68b7a546-82ad-3268-0423-a3581e3c8887">
+      <Execution id="ab1b0ced-da91-400b-955b-4b89c6ec9be9" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Save_Invalid_Changes" />
+    </UnitTest>
+    <UnitTest name="Can_Add_Quantity_For_Existing_Lines" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="389303ee-d7cc-724d-a27b-4b63eb975112">
+      <Execution id="b0ecbf47-d442-46cc-9d0f-3f47b6de6d99" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_Quantity_For_Existing_Lines" />
+    </UnitTest>
+    <UnitTest name="Can_Add_New_Lines" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="f4bedb1c-2c61-1356-e5c7-4252f5216901">
+      <Execution id="dca965b8-a7f3-45c6-9538-b1ae9ac037d6" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_New_Lines" />
+    </UnitTest>
+    <UnitTest name="Cannot_Edit_Nonexistent_Product" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="0f9b2961-59ac-536b-52c9-213cff339290">
+      <Execution id="86cef0a3-fe99-4ceb-8bbd-5e692958149a" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Edit_Nonexistent_Product" />
+    </UnitTest>
+    <UnitTest name="Can_Retrieve_Image_Data" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="1885a10e-62b7-10eb-5002-93968187dcb4">
+      <Execution id="824b14cd-d39c-4201-b120-fae607430d5f" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Retrieve_Image_Data" />
+    </UnitTest>
+    <UnitTest name="Can_Send_Pagination_View_Model" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="4a4b09b5-fb0b-d0f1-ec15-793362fab937">
+      <Execution id="469de739-3302-4841-b132-018c79370edd" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Send_Pagination_View_Model" />
+    </UnitTest>
+    <UnitTest name="Can_Add_To_Cart" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="b2f3ce23-c168-dc02-be4f-a9ec75dcd99e">
+      <Execution id="e2cec913-dc34-47e6-86dc-0ae7c07b9101" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_To_Cart" />
+    </UnitTest>
+    <UnitTest name="Can_Create_Categories" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="a86ac7ff-8789-e55c-a89a-c619519a8f43">
+      <Execution id="2b6de595-9240-4ec0-904c-17c590e9fe69" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.NavControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Create_Categories" />
+    </UnitTest>
+    <UnitTest name="Calculate_Cart_Total" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="91dcb5f3-09e1-5609-35db-2cbb1d67bfce">
+      <Execution id="41692153-0955-411e-8634-6a49153c3ce5" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_Cart_Total" />
+    </UnitTest>
+    <UnitTest name="Can_Add_New_Lines" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="dad81126-e8a6-9feb-dbfc-a275bcacfca9">
+      <Execution id="3c584448-87e4-4e16-94a3-c88feadd2377" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_New_Lines" />
+    </UnitTest>
+    <UnitTest name="Can_Delete_Valid_Products" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="0f858b57-337d-9169-37d3-9ff0aac29089">
+      <Execution id="d0689dff-0403-4e72-9451-dbb6d74d59f4" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Delete_Valid_Products" />
+    </UnitTest>
+    <UnitTest name="Can_Edit_Product" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="29859a33-c3e1-9aa3-25d1-53c935fa3f27">
+      <Execution id="70a56268-ff80-4132-8444-fae5c43f7d56" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Edit_Product" />
+    </UnitTest>
+    <UnitTest name="Can_Remove_Line" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="222dec22-a875-dc44-c834-d20c8b4d0cbf">
+      <Execution id="78a532b4-3996-4ba7-8eca-3d5daa3fc7d9" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Remove_Line" />
+    </UnitTest>
+    <UnitTest name="Can_Save_Valid_Changes" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="021386d4-6e95-0de5-b37a-9f41d30415fe">
+      <Execution id="8695f25d-bd09-480d-8f6b-7e78dff93b52" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Save_Valid_Changes" />
+    </UnitTest>
+    <UnitTest name="Indicates_Selected_Category" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="149dcaab-4c61-db78-23c2-972e8ddcda04">
+      <Execution id="4ef2ec13-8143-45fc-9b9d-bcfd536b9947" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.NavControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Indicates_Selected_Category" />
+    </UnitTest>
+    <UnitTest name="Adding_Product_To_Cart_Goes_To_Cart_Screen" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="51ece486-96fd-a449-4eaf-fee35864b900">
+      <Execution id="5fbd7ccf-5058-4020-8d59-b5a96899eb13" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Adding_Product_To_Cart_Goes_To_Cart_Screen" />
+    </UnitTest>
+    <UnitTest name="Can_Clear_Contents" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="67bd14da-0677-af46-0b31-3e3241b7e801">
+      <Execution id="89565a84-6669-48e0-8a3e-42bab19bef7f" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Clear_Contents" />
+    </UnitTest>
+    <UnitTest name="Cannot_Checkout_Empty_Cart" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="3541fe90-323f-a409-749b-9d17f502ab21">
+      <Execution id="9e255ff2-2df3-4367-bd72-30ccfdbb9137" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Checkout_Empty_Cart" />
+    </UnitTest>
+    <UnitTest name="Cannot_Checkout_Invalid_ShippingDetails" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="732825c5-d70c-637f-7f5e-bbbffc9af287">
+      <Execution id="62d7b0e4-b429-43a7-a7be-60a3841492de" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Checkout_Invalid_ShippingDetails" />
+    </UnitTest>
+    <UnitTest name="Can_Checkout_And_Submit_Order" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="e49a6fb3-06f0-dfa4-cc93-56e893554dfb">
+      <Execution id="21f84749-72f9-423f-90f1-a27f24975afb" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Checkout_And_Submit_Order" />
+    </UnitTest>
+    <UnitTest name="Cannot_Login_With_Invalid_Credentials" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="29117960-876c-d3f7-83e4-6c334cba62eb">
+      <Execution id="d8846d70-45ce-4076-ab7d-05da81bd1f32" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AccountControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Login_With_Invalid_Credentials" />
+    </UnitTest>
+    <UnitTest name="Can_Login_With_Valid_Credentials" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="87224df0-8c69-5ead-c901-6ece361f6093">
+      <Execution id="7c251bf6-ea50-4fb7-b3b2-0a98c0c65e03" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AccountControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Login_With_Valid_Credentials" />
+    </UnitTest>
+    <UnitTest name="Can_Paginate" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="e5382814-0a83-faab-efea-367d92da8f13">
+      <Execution id="97ac06f6-1a85-4645-9a79-6025c8791e22" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+    <UnitTest name="Can_Filter_Products" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="de7e19ec-8812-1c0d-2b5a-bacb5b42b05c">
+      <Execution id="10692655-e486-46f9-af27-eae0ddccd7d8" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Filter_Products" />
+    </UnitTest>
+    <UnitTest name="Cannot_Retrieve_Image_Data_For_Invalid_ID" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="dee79d5a-ea23-d68c-392b-2f58d91fc341">
+      <Execution id="8a7c5bf8-c768-4748-a589-373d79f65cd9" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Retrieve_Image_Data_For_Invalid_ID" />
+    </UnitTest>
+    <UnitTest name="Cannot_Delete_Invalid_Products" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="924026a9-8fc3-94a4-2ddb-a5a2743ca589">
+      <Execution id="1de1986d-6b6d-4522-a1c5-b8c1ab46acc2" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Delete_Invalid_Products" />
+    </UnitTest>
+    <UnitTest name="Can_View_Cart_Contents" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="33e5249b-9d6d-95b9-3564-377263323be4">
+      <Execution id="7e4dcbf2-2b8e-49f2-af92-a6c440a74822" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_View_Cart_Contents" />
+    </UnitTest>
+    <UnitTest name="Index_Contains_All_Products" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="49c2020d-64a0-1e5d-bb1e-7193eb37abeb">
+      <Execution id="facca094-0915-45b3-86da-118ae362d875" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Contains_All_Products" />
+    </UnitTest>
+    <UnitTest name="Can_Generate_Page_Links" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="af4224d8-cd45-d986-c80c-707125e7f4f3">
+      <Execution id="a30ad75e-e1c7-4f57-a89d-cecbf0150d38" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Generate_Page_Links" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="021386d4-6e95-0de5-b37a-9f41d30415fe" executionId="8695f25d-bd09-480d-8f6b-7e78dff93b52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f858b57-337d-9169-37d3-9ff0aac29089" executionId="d0689dff-0403-4e72-9451-dbb6d74d59f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f9b2961-59ac-536b-52c9-213cff339290" executionId="86cef0a3-fe99-4ceb-8bbd-5e692958149a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="149dcaab-4c61-db78-23c2-972e8ddcda04" executionId="4ef2ec13-8143-45fc-9b9d-bcfd536b9947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1885a10e-62b7-10eb-5002-93968187dcb4" executionId="824b14cd-d39c-4201-b120-fae607430d5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="222dec22-a875-dc44-c834-d20c8b4d0cbf" executionId="78a532b4-3996-4ba7-8eca-3d5daa3fc7d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29117960-876c-d3f7-83e4-6c334cba62eb" executionId="d8846d70-45ce-4076-ab7d-05da81bd1f32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29859a33-c3e1-9aa3-25d1-53c935fa3f27" executionId="70a56268-ff80-4132-8444-fae5c43f7d56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31b06b3d-b6f5-c2aa-179c-a283632fc745" executionId="a5e83445-205c-4420-8a72-9a9551750a5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33e5249b-9d6d-95b9-3564-377263323be4" executionId="7e4dcbf2-2b8e-49f2-af92-a6c440a74822" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3541fe90-323f-a409-749b-9d17f502ab21" executionId="9e255ff2-2df3-4367-bd72-30ccfdbb9137" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="389303ee-d7cc-724d-a27b-4b63eb975112" executionId="b0ecbf47-d442-46cc-9d0f-3f47b6de6d99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49c2020d-64a0-1e5d-bb1e-7193eb37abeb" executionId="facca094-0915-45b3-86da-118ae362d875" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a4b09b5-fb0b-d0f1-ec15-793362fab937" executionId="469de739-3302-4841-b132-018c79370edd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51ece486-96fd-a449-4eaf-fee35864b900" executionId="5fbd7ccf-5058-4020-8d59-b5a96899eb13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67bd14da-0677-af46-0b31-3e3241b7e801" executionId="89565a84-6669-48e0-8a3e-42bab19bef7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68b7a546-82ad-3268-0423-a3581e3c8887" executionId="ab1b0ced-da91-400b-955b-4b89c6ec9be9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="732825c5-d70c-637f-7f5e-bbbffc9af287" executionId="62d7b0e4-b429-43a7-a7be-60a3841492de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87224df0-8c69-5ead-c901-6ece361f6093" executionId="7c251bf6-ea50-4fb7-b3b2-0a98c0c65e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91dcb5f3-09e1-5609-35db-2cbb1d67bfce" executionId="41692153-0955-411e-8634-6a49153c3ce5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="924026a9-8fc3-94a4-2ddb-a5a2743ca589" executionId="1de1986d-6b6d-4522-a1c5-b8c1ab46acc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a86ac7ff-8789-e55c-a89a-c619519a8f43" executionId="2b6de595-9240-4ec0-904c-17c590e9fe69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af4224d8-cd45-d986-c80c-707125e7f4f3" executionId="a30ad75e-e1c7-4f57-a89d-cecbf0150d38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2f3ce23-c168-dc02-be4f-a9ec75dcd99e" executionId="e2cec913-dc34-47e6-86dc-0ae7c07b9101" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dad81126-e8a6-9feb-dbfc-a275bcacfca9" executionId="3c584448-87e4-4e16-94a3-c88feadd2377" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de7e19ec-8812-1c0d-2b5a-bacb5b42b05c" executionId="10692655-e486-46f9-af27-eae0ddccd7d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dee79d5a-ea23-d68c-392b-2f58d91fc341" executionId="8a7c5bf8-c768-4748-a589-373d79f65cd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e49a6fb3-06f0-dfa4-cc93-56e893554dfb" executionId="21f84749-72f9-423f-90f1-a27f24975afb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5382814-0a83-faab-efea-367d92da8f13" executionId="97ac06f6-1a85-4645-9a79-6025c8791e22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4bedb1c-2c61-1356-e5c7-4252f5216901" executionId="dca965b8-a7f3-45c6-9538-b1ae9ac037d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8695f25d-bd09-480d-8f6b-7e78dff93b52" testId="021386d4-6e95-0de5-b37a-9f41d30415fe" testName="Can_Save_Valid_Changes" computerName="KARINSDATOR" duration="00:00:00.6721067" startTime="2012-09-18T20:06:47.9559280+02:00" endTime="2012-09-18T20:06:49.2089997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8695f25d-bd09-480d-8f6b-7e78dff93b52">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0689dff-0403-4e72-9451-dbb6d74d59f4" testId="0f858b57-337d-9169-37d3-9ff0aac29089" testName="Can_Delete_Valid_Products" computerName="KARINSDATOR" duration="00:00:00.0666204" startTime="2012-09-18T20:06:49.2230005+02:00" endTime="2012-09-18T20:06:49.3000049+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0689dff-0403-4e72-9451-dbb6d74d59f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="86cef0a3-fe99-4ceb-8bbd-5e692958149a" testId="0f9b2961-59ac-536b-52c9-213cff339290" testName="Cannot_Edit_Nonexistent_Product" computerName="KARINSDATOR" duration="00:00:00.0125121" startTime="2012-09-18T20:06:49.3180059+02:00" endTime="2012-09-18T20:06:49.3400072+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86cef0a3-fe99-4ceb-8bbd-5e692958149a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ef2ec13-8143-45fc-9b9d-bcfd536b9947" testId="149dcaab-4c61-db78-23c2-972e8ddcda04" testName="Indicates_Selected_Category" computerName="KARINSDATOR" duration="00:00:00.0346811" startTime="2012-09-18T20:06:49.3620085+02:00" endTime="2012-09-18T20:06:49.4020108+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ef2ec13-8143-45fc-9b9d-bcfd536b9947">
+    </UnitTestResult>
+    <UnitTestResult executionId="824b14cd-d39c-4201-b120-fae607430d5f" testId="1885a10e-62b7-10eb-5002-93968187dcb4" testName="Can_Retrieve_Image_Data" computerName="KARINSDATOR" duration="00:00:00.0064608" startTime="2012-09-18T20:06:49.4060110+02:00" endTime="2012-09-18T20:06:49.4240120+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824b14cd-d39c-4201-b120-fae607430d5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="78a532b4-3996-4ba7-8eca-3d5daa3fc7d9" testId="222dec22-a875-dc44-c834-d20c8b4d0cbf" testName="Can_Remove_Line" computerName="KARINSDATOR" duration="00:00:00.0128992" startTime="2012-09-18T20:06:49.4260121+02:00" endTime="2012-09-18T20:06:49.4570139+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78a532b4-3996-4ba7-8eca-3d5daa3fc7d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8846d70-45ce-4076-ab7d-05da81bd1f32" testId="29117960-876c-d3f7-83e4-6c334cba62eb" testName="Cannot_Login_With_Invalid_Credentials" computerName="KARINSDATOR" duration="00:00:00.0658471" startTime="2012-09-18T20:06:49.5050166+02:00" endTime="2012-09-18T20:06:49.5860213+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8846d70-45ce-4076-ab7d-05da81bd1f32">
+    </UnitTestResult>
+    <UnitTestResult executionId="70a56268-ff80-4132-8444-fae5c43f7d56" testId="29859a33-c3e1-9aa3-25d1-53c935fa3f27" testName="Can_Edit_Product" computerName="KARINSDATOR" duration="00:00:00.0304439" startTime="2012-09-18T20:06:49.6570253+02:00" endTime="2012-09-18T20:06:49.7080283+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70a56268-ff80-4132-8444-fae5c43f7d56">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5e83445-205c-4420-8a72-9a9551750a5d" testId="31b06b3d-b6f5-c2aa-179c-a283632fc745" testName="Generate_Category_Specific_Product_Count" computerName="KARINSDATOR" duration="00:00:00.0165538" startTime="2012-09-18T20:06:49.7350298+02:00" endTime="2012-09-18T20:06:49.7640315+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5e83445-205c-4420-8a72-9a9551750a5d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7e4dcbf2-2b8e-49f2-af92-a6c440a74822" testId="33e5249b-9d6d-95b9-3564-377263323be4" testName="Can_View_Cart_Contents" computerName="KARINSDATOR" duration="00:00:00.0336052" startTime="2012-09-18T20:06:49.7880328+02:00" endTime="2012-09-18T20:06:49.8290352+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e4dcbf2-2b8e-49f2-af92-a6c440a74822">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e255ff2-2df3-4367-bd72-30ccfdbb9137" testId="3541fe90-323f-a409-749b-9d17f502ab21" testName="Cannot_Checkout_Empty_Cart" computerName="KARINSDATOR" duration="00:00:00.0281210" startTime="2012-09-18T20:06:49.8450361+02:00" endTime="2012-09-18T20:06:49.8930388+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e255ff2-2df3-4367-bd72-30ccfdbb9137">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0ecbf47-d442-46cc-9d0f-3f47b6de6d99" testId="389303ee-d7cc-724d-a27b-4b63eb975112" testName="Can_Add_Quantity_For_Existing_Lines" computerName="KARINSDATOR" duration="00:00:00.0360078" startTime="2012-09-18T20:06:49.9130400+02:00" endTime="2012-09-18T20:06:49.9640429+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0ecbf47-d442-46cc-9d0f-3f47b6de6d99">
+    </UnitTestResult>
+    <UnitTestResult executionId="facca094-0915-45b3-86da-118ae362d875" testId="49c2020d-64a0-1e5d-bb1e-7193eb37abeb" testName="Index_Contains_All_Products" computerName="KARINSDATOR" duration="00:00:00.0052265" startTime="2012-09-18T20:06:49.9880443+02:00" endTime="2012-09-18T20:06:50.0090455+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="facca094-0915-45b3-86da-118ae362d875">
+    </UnitTestResult>
+    <UnitTestResult executionId="469de739-3302-4841-b132-018c79370edd" testId="4a4b09b5-fb0b-d0f1-ec15-793362fab937" testName="Can_Send_Pagination_View_Model" computerName="KARINSDATOR" duration="00:00:00.0038211" startTime="2012-09-18T20:06:50.0110456+02:00" endTime="2012-09-18T20:06:50.0560482+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="469de739-3302-4841-b132-018c79370edd">
+    </UnitTestResult>
+    <UnitTestResult executionId="5fbd7ccf-5058-4020-8d59-b5a96899eb13" testId="51ece486-96fd-a449-4eaf-fee35864b900" testName="Adding_Product_To_Cart_Goes_To_Cart_Screen" computerName="KARINSDATOR" duration="00:00:00.1057201" startTime="2012-09-18T20:06:50.0760493+02:00" endTime="2012-09-18T20:06:50.2000564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fbd7ccf-5058-4020-8d59-b5a96899eb13">
+    </UnitTestResult>
+    <UnitTestResult executionId="89565a84-6669-48e0-8a3e-42bab19bef7f" testId="67bd14da-0677-af46-0b31-3e3241b7e801" testName="Can_Clear_Contents" computerName="KARINSDATOR" duration="00:00:00.0016009" startTime="2012-09-18T20:06:50.2460590+02:00" endTime="2012-09-18T20:06:50.2600598+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89565a84-6669-48e0-8a3e-42bab19bef7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab1b0ced-da91-400b-955b-4b89c6ec9be9" testId="68b7a546-82ad-3268-0423-a3581e3c8887" testName="Cannot_Save_Invalid_Changes" computerName="KARINSDATOR" duration="00:00:00.0308418" startTime="2012-09-18T20:06:50.2630600+02:00" endTime="2012-09-18T20:06:50.3060625+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab1b0ced-da91-400b-955b-4b89c6ec9be9">
+    </UnitTestResult>
+    <UnitTestResult executionId="62d7b0e4-b429-43a7-a7be-60a3841492de" testId="732825c5-d70c-637f-7f5e-bbbffc9af287" testName="Cannot_Checkout_Invalid_ShippingDetails" computerName="KARINSDATOR" duration="00:00:00.0140016" startTime="2012-09-18T20:06:50.3410645+02:00" endTime="2012-09-18T20:06:50.3820668+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62d7b0e4-b429-43a7-a7be-60a3841492de">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c251bf6-ea50-4fb7-b3b2-0a98c0c65e03" testId="87224df0-8c69-5ead-c901-6ece361f6093" testName="Can_Login_With_Valid_Credentials" computerName="KARINSDATOR" duration="00:00:00.0122061" startTime="2012-09-18T20:06:50.4040681+02:00" endTime="2012-09-18T20:06:50.4310696+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c251bf6-ea50-4fb7-b3b2-0a98c0c65e03">
+    </UnitTestResult>
+    <UnitTestResult executionId="41692153-0955-411e-8634-6a49153c3ce5" testId="91dcb5f3-09e1-5609-35db-2cbb1d67bfce" testName="Calculate_Cart_Total" computerName="KARINSDATOR" duration="00:00:00.0022828" startTime="2012-09-18T20:06:50.4470705+02:00" endTime="2012-09-18T20:06:50.4820725+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41692153-0955-411e-8634-6a49153c3ce5">
+    </UnitTestResult>
+    <UnitTestResult executionId="1de1986d-6b6d-4522-a1c5-b8c1ab46acc2" testId="924026a9-8fc3-94a4-2ddb-a5a2743ca589" testName="Cannot_Delete_Invalid_Products" computerName="KARINSDATOR" duration="00:00:00.0142523" startTime="2012-09-18T20:06:50.5030737+02:00" endTime="2012-09-18T20:06:50.5290752+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de1986d-6b6d-4522-a1c5-b8c1ab46acc2">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b6de595-9240-4ec0-904c-17c590e9fe69" testId="a86ac7ff-8789-e55c-a89a-c619519a8f43" testName="Can_Create_Categories" computerName="KARINSDATOR" duration="00:00:00.0234771" startTime="2012-09-18T20:06:50.5450761+02:00" endTime="2012-09-18T20:06:50.5910788+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b6de595-9240-4ec0-904c-17c590e9fe69">
+    </UnitTestResult>
+    <UnitTestResult executionId="a30ad75e-e1c7-4f57-a89d-cecbf0150d38" testId="af4224d8-cd45-d986-c80c-707125e7f4f3" testName="Can_Generate_Page_Links" computerName="KARINSDATOR" duration="00:00:00.0220301" startTime="2012-09-18T20:06:50.5990792+02:00" endTime="2012-09-18T20:06:50.6310811+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a30ad75e-e1c7-4f57-a89d-cecbf0150d38">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2cec913-dc34-47e6-86dc-0ae7c07b9101" testId="b2f3ce23-c168-dc02-be4f-a9ec75dcd99e" testName="Can_Add_To_Cart" computerName="KARINSDATOR" duration="00:00:00.0124705" startTime="2012-09-18T20:06:50.6460819+02:00" endTime="2012-09-18T20:06:50.6710833+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2cec913-dc34-47e6-86dc-0ae7c07b9101">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c584448-87e4-4e16-94a3-c88feadd2377" testId="dad81126-e8a6-9feb-dbfc-a275bcacfca9" testName="Can_Add_New_Lines" computerName="KARINSDATOR" duration="00:00:00.0028156" startTime="2012-09-18T20:06:50.6860842+02:00" endTime="2012-09-18T20:06:50.7350870+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c584448-87e4-4e16-94a3-c88feadd2377">
+    </UnitTestResult>
+    <UnitTestResult executionId="10692655-e486-46f9-af27-eae0ddccd7d8" testId="de7e19ec-8812-1c0d-2b5a-bacb5b42b05c" testName="Can_Filter_Products" computerName="KARINSDATOR" duration="00:00:00.0444538" startTime="2012-09-18T20:06:50.7850899+02:00" endTime="2012-09-18T20:06:50.8540938+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10692655-e486-46f9-af27-eae0ddccd7d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a7c5bf8-c768-4748-a589-373d79f65cd9" testId="dee79d5a-ea23-d68c-392b-2f58d91fc341" testName="Cannot_Retrieve_Image_Data_For_Invalid_ID" computerName="KARINSDATOR" duration="00:00:00.0073476" startTime="2012-09-18T20:06:50.8770951+02:00" endTime="2012-09-18T20:06:50.8930960+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a7c5bf8-c768-4748-a589-373d79f65cd9">
+    </UnitTestResult>
+    <UnitTestResult executionId="21f84749-72f9-423f-90f1-a27f24975afb" testId="e49a6fb3-06f0-dfa4-cc93-56e893554dfb" testName="Can_Checkout_And_Submit_Order" computerName="KARINSDATOR" duration="00:00:00.0055550" startTime="2012-09-18T20:06:50.9130972+02:00" endTime="2012-09-18T20:06:50.9310982+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21f84749-72f9-423f-90f1-a27f24975afb">
+    </UnitTestResult>
+    <UnitTestResult executionId="97ac06f6-1a85-4645-9a79-6025c8791e22" testId="e5382814-0a83-faab-efea-367d92da8f13" testName="Can_Paginate" computerName="KARINSDATOR" duration="00:00:00.0060693" startTime="2012-09-18T20:06:50.9550996+02:00" endTime="2012-09-18T20:06:50.9671003+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97ac06f6-1a85-4645-9a79-6025c8791e22">
+    </UnitTestResult>
+    <UnitTestResult executionId="dca965b8-a7f3-45c6-9538-b1ae9ac037d6" testId="f4bedb1c-2c61-1356-e5c7-4252f5216901" testName="Can_Add_New_Lines" computerName="KARINSDATOR" duration="00:00:00.0013653" startTime="2012-09-18T20:06:50.9941018+02:00" endTime="2012-09-18T20:06:51.0071026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dca965b8-a7f3-45c6-9538-b1ae9ac037d6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

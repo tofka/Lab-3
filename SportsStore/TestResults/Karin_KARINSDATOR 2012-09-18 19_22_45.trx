@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a39f2dde-7068-4a21-8f16-e99921fe35ea" name="Karin@KARINSDATOR 2012-09-18 19:22:45" runUser="Karinsdator\Karin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="38f60171-d25e-4ba7-acce-e4be023cbd29">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karin_KARINSDATOR 2012-09-18 19_22_45">
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-18T19:22:45.0437621+02:00" queuing="2012-09-18T19:22:45.1527683+02:00" start="2012-09-18T19:22:45.1917706+02:00" finish="2012-09-18T19:22:46.1308243+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Add_Quantity_For_Existing_Lines" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="389303ee-d7cc-724d-a27b-4b63eb975112">
+      <Execution id="fbdbedfb-3917-403c-9d10-b2db1d64b191" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.CartControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_Quantity_For_Existing_Lines" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="389303ee-d7cc-724d-a27b-4b63eb975112" executionId="fbdbedfb-3917-403c-9d10-b2db1d64b191" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fbdbedfb-3917-403c-9d10-b2db1d64b191" testId="389303ee-d7cc-724d-a27b-4b63eb975112" testName="Can_Add_Quantity_For_Existing_Lines" computerName="KARINSDATOR" duration="00:00:00.0235260" startTime="2012-09-18T19:22:45.2687750+02:00" endTime="2012-09-18T19:22:45.7168006+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbdbedfb-3917-403c-9d10-b2db1d64b191">
+    </UnitTestResult>
+  </Results>
+</TestRun>

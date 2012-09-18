@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee1a89f5-b638-4efe-9897-e04b2144f636" name="Karin@KARINSDATOR 2012-09-18 19:46:02" runUser="Karinsdator\Karin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="38f60171-d25e-4ba7-acce-e4be023cbd29">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karin_KARINSDATOR 2012-09-18 19_46_02">
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-18T19:46:02.0846683+02:00" queuing="2012-09-18T19:46:02.2286765+02:00" start="2012-09-18T19:46:02.3436831+02:00" finish="2012-09-18T19:46:04.0907830+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Delete_Valid_Products" storage="c:\users\karin\desktop\documents\visual studio 2010\projects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="0f858b57-337d-9169-37d3-9ff0aac29089">
+      <Execution id="a47f5867-54a3-4079-acb9-09abd88446f6" />
+      <TestMethod codeBase="C:/Users/Karin/desktop/documents/visual studio 2010/Projects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.AdminControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Delete_Valid_Products" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f858b57-337d-9169-37d3-9ff0aac29089" executionId="a47f5867-54a3-4079-acb9-09abd88446f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a47f5867-54a3-4079-acb9-09abd88446f6" testId="0f858b57-337d-9169-37d3-9ff0aac29089" testName="Can_Delete_Valid_Products" computerName="KARINSDATOR" duration="00:00:00.6920359" startTime="2012-09-18T19:46:02.4186874+02:00" endTime="2012-09-18T19:46:03.6167559+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a47f5867-54a3-4079-acb9-09abd88446f6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

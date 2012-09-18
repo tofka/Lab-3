@@ -1,0 +1,15 @@
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.WebUi.pdb
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Moq.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Ninject.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.Domain.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\SportsStore.Domain.pdb
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Moq.pdb
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Moq.xml
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Ninject.pdb
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\Ninject.xml
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\obj\Debug\SportsStore.WebUi.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\obj\Debug\SportsStore.WebUi.pdb
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\EntityFramework.dll
+C:\Users\Karin\desktop\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUi\bin\EntityFramework.xml
