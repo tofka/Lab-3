@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
-
+using System.Web.Mvc;
 
 namespace SportsStore.Domain.Entities {
     public class Product {
-        
+        [HiddenInput(DisplayValue = false)]
         public int ProductID {
             get;
             set;
@@ -38,7 +38,7 @@ namespace SportsStore.Domain.Entities {
             get;
             set;
         }
-        
+        [HiddenInput(DisplayValue = false)]
         public string ImageMimeType {
             get;
             set;
